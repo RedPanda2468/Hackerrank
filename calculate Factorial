@@ -1,0 +1,10 @@
+''' write a program to calculate the factorial of a given number using for loop'''
+
+n = int(input("Enter the number to calculate the factorial of:"))
+number = 1
+for i in range(0, n):
+    a = n-i
+    print(a)
+    number = number*a
+    
+print("The factorial of the given number is:", number)
