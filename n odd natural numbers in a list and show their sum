@@ -1,0 +1,13 @@
+n  = int(input())
+odd = []
+
+for i in range(n):
+    odd.append(2*i+1)
+
+print(odd)
+sum = 0
+
+for numbers in odd:
+    sum = sum + numbers
+
+print(sum)
