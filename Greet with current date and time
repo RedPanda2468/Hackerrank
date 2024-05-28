@@ -1,0 +1,10 @@
+from datetime import datetime
+
+now = datetime.now()
+name = input("Please enter your name: ")
+
+
+print(f"Dear {name},")
+print("    You're selected")
+print(now.strftime("%Y-%m-%d %H:%M:%S"))
+
